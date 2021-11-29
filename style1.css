@@ -12,7 +12,7 @@ body{
   overflow-x: hidden;
   position: relative;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 1920px 930px;
   background-color: rgb(0, 0, 0); 
 }
 
@@ -220,3 +220,5 @@ h3 {
   margin-top: 110px;
   font: bold 40px sans-serif;
   color: #FFFFFF;
+
+}
