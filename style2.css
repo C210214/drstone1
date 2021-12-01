@@ -222,3 +222,26 @@ a{
   box-shadow: 0 0 5px rgb(106, 109, 105);
     transform: scale(1.05);
 }
+
+#back-top {
+  position: fixed; 
+  display:none; 
+  font-size: 50px;
+  color: #fff;
+  bottom: 5px; 
+  right:10px; 
+  width:auto;
+}
+a#back-top:active {
+  background:none;
+}
+a#back-top {
+  display: block; 
+  text-decoration: none;
+}
+.topup {
+  bottom:5px;
+}
+#back-top i {
+  display: block;
+}

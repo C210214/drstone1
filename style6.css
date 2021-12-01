@@ -172,3 +172,26 @@ h2 {
     color: #FFFFFF;
 
 }
+
+#back-top {
+  position: fixed; 
+  display:none; 
+  font-size: 50px;
+  color: #fff;
+  bottom: 5px; 
+  right:10px; 
+  width:auto;
+}
+a#back-top:active {
+  background:none;
+}
+a#back-top {
+  display: block; 
+  text-decoration: none;
+}
+.topup {
+  bottom:5px;
+}
+#back-top i {
+  display: block;
+}
