@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     $(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 1100) {
+            if ($(this).scrollTop() > 700) {
                 $('#back-top').fadeIn();
             } else {
                 $('#back-top').fadeOut();
