@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     $(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 200) {
+            if ($(this).scrollTop() > 150) {
                 $('#back-top').fadeIn();
             } else {
                 $('#back-top').fadeOut();
@@ -15,7 +15,7 @@ $(document).ready(function(){
         $('a#back-top').click(function () {
             $('body,html').animate({
                 scrollTop: 0
-            }, 800);
+            }, 500);
             return false;
         });
     });
